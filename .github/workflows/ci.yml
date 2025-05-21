@@ -26,8 +26,5 @@ jobs:
     - name: Cabal update
       run: cabal update
 
-    - name: Build project
-      run: cabal build all
-
     - name: Run tests
       run: cabal test all
